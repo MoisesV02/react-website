@@ -3,7 +3,10 @@ import Navbar from './components/Navbar'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css'
 import Home from './components/pages/Home'
-import Footer from './components/pages/Footer'
+// import Footer from './components/pages/Footer'
+import Game from './components/pages/Game'
+import Contact from './components/pages/Contact'
+import About from './components/pages/About'
 
 function App() {
   return (
@@ -11,9 +14,12 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Home} />
+        <Route path='/' exact element={<Home />} />
+        <Route path='/games' exact element={<Game />} />
+        <Route path='/contact' exact element={<Contact />} />
+        <Route path='/about' exact element={<About />} />
       </Routes>
-      <Home></Home>
+      {/* <Footer /> */}
     </Router>
     </>
   );

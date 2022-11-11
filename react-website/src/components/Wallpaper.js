@@ -9,7 +9,7 @@ function Wallpaper() {
   return (
     <div className='wallpaper-container' style={{ backgroundImage: `url(${picture})`}}>
         <h1>Ready To Play Some Games?</h1>
-        <p>What are you waiting for</p>
+        <p>Adventure Awaits</p>
         <div className='wallpaper-btns'>
             <Button 
             className='btns'

@@ -1,5 +1,6 @@
 import React from 'react'
 import Gamecarditem from './Gamecarditem'
+import './Gamecards.css'
 
 function Gamecards() {
   return (
@@ -7,7 +8,7 @@ function Gamecards() {
       <h1>FEATURED</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='card__item'>
+          <ul className='cards__items'>
             <Gamecarditem />
           </ul>
         </div>
