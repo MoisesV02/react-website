@@ -6,7 +6,7 @@ function Gamecarditem() {
     <>
     <li className='cards__item'>
       <link className='cards__item__link'>
-        <figure className='cards__item_pic_wrap'>
+        <figure className='cards__item__pic-wrap'>
           <img src='/' alt='' />
         </figure>
         <div className='cards__item__info'>
