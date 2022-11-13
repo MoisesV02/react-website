@@ -1,19 +1,12 @@
 import React from 'react'
-import Gamecarditem from './Gamecarditem'
-import './Gamecards.css'
 
-function Gamecards() {
+function Gamecards(title,imageUrl,body) {
   return (
-    <div className='cards'>
-      <h1>FEATURED</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <Gamecarditem />
-          </ul>
-        </div>
+    <div className='card-container'>
+      <div className='image-container'>
+        <img src={imageUrl} alt='test' />
       </div>
-    </div>
+      </div>
   )
 }
 

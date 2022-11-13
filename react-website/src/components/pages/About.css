@@ -1,0 +1,35 @@
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-heading {
+    /* change color later */
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.subheaders {
+    /* change color later */
+    color: black;
+    font-size: 30px
+}
+
+.space1 {
+    margin-bottom: 50px;
+}
+
+.space2 {
+    margin-bottom: 10px;
+}
+
+.background {
+    /* change background-color to change the background, idk what color to choose yet */
+    background-color: #fff;
+}
+
+.paragraph {
+    /* change color later */
+    color: black;
+}
