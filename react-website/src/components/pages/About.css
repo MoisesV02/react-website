@@ -5,15 +5,21 @@
 
 .main-heading {
     /* change color later */
-    color: black;
+    color: #fff;
     font-size: 50px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      font-weight: bolder;
 }
 
 .subheaders {
     /* change color later */
-    color: black;
-    font-size: 30px
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      font-weight: bolder;
 }
 
 .space1 {
@@ -26,10 +32,13 @@
 
 .background {
     /* change background-color to change the background, idk what color to choose yet */
-    background-color: #fff;
+    background-color: #383838;
 }
 
 .paragraph {
     /* change color later */
-    color: black;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      font-weight: bolder;
 }

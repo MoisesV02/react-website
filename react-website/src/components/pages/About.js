@@ -2,11 +2,11 @@ import React from 'react'
 import '../../App.css'
 import './About.css'
 
-// const image = new URL("../../images/Background1.jpg", import.meta.url)
-// style={{ backgroundImage: `url(${image})`}}
+const image = new URL("../../images/Background8.jpg", import.meta.url)
+
 export default function About() {
     return (
-        <div className='background' >
+        <div className='background' style={{ backgroundImage: `url(${image})`}}>
             <section className='section'>
                 <div className='container'>
                     <div className='row'>
