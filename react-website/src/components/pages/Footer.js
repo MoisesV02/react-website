@@ -10,15 +10,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>ABOUT</h2>
-            <Link>How it started</Link>
-            <Link>Team</Link>
-            <Link>Results</Link>
+            <Link to='/about'>How it started</Link>
+            <Link to='/about'>Team</Link>
+            <Link to='/about'>Results</Link>
           </div>
           <div class='footer-link-items'>
             <h2>CONTACT</h2>
-            <Link>Email</Link>
-            <Link>Support</Link>
-            <Link>777-777-7777</Link>
+            <Link to='/contact'>Email</Link>
+            <Link to='/contact'>Support</Link>
+            <Link to='/contact'>777-777-7777</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>

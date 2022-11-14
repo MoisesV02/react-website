@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Gamecarditem(props) {
+function CardItem(props) {
   return (
     <>
       <li className='cards__item'>
@@ -9,7 +9,7 @@ function Gamecarditem(props) {
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               className='cards__item__img'
-              alt='Travel Image'
+              alt='Game'
               src={props.src}
             />
           </figure>
@@ -22,4 +22,4 @@ function Gamecarditem(props) {
   );
 }
 
-export default Gamecarditem;
+export default CardItem;
