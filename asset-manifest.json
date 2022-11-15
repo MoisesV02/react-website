@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c54fb925.css",
+    "main.js": "/static/js/main.404c830d.js",
+    "static/media/SimpleRPG.png": "/static/media/SimpleRPG.f2b10e5674e4ee1d6ec9.png",
+    "static/media/GalacticWars.png": "/static/media/GalacticWars.7d46ab99caa676193359.png",
+    "static/media/SynthHero.png": "/static/media/SynthHero.2a9c12ea38c643ea8124.png",
+    "static/media/Meteors.png": "/static/media/Meteors.392b07807f3328f4aa14.png",
+    "index.html": "/index.html",
+    "main.c54fb925.css.map": "/static/css/main.c54fb925.css.map",
+    "main.404c830d.js.map": "/static/js/main.404c830d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c54fb925.css",
+    "static/js/main.404c830d.js"
+  ]
+}
