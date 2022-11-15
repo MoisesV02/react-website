@@ -7,6 +7,7 @@ import Home from './components/pages/Home'
 import Game from './components/pages/Game'
 import Contact from './components/pages/Contact'
 import About from './components/pages/About'
+import SimpleRpgs from './components/pages/SimpleRpgs'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' exact element={<Home />} />
+        <Route path='simple-rpgs' exact element={<SimpleRpgs />} />
         <Route path='/games' exact element={<Game />} />
         <Route path='/contact' exact element={<Contact />} />
         <Route path='/about' exact element={<About />} />
@@ -22,7 +24,7 @@ function App() {
       {/* <Footer /> */}
     </Router>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

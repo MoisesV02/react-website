@@ -1,6 +1,6 @@
-import React from 'react';
-import './Footer.css';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import './Footer.css'
+import { Link } from 'react-router-dom'
 import {IoLogoGameControllerB} from 'react-icons/io'
 
 function Footer() {
@@ -40,7 +40,7 @@ function Footer() {
           <small class='website-rights'>RetroGames © 2022</small>
         </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

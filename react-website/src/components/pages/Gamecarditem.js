@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Gamecarditem(props) {
   return (
@@ -19,7 +19,7 @@ function Gamecarditem(props) {
         </Link>
       </li>
     </>
-  );
+  )
 }
 
-export default Gamecarditem;
+export default Gamecarditem
