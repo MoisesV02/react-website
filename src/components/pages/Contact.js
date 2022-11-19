@@ -17,7 +17,7 @@ export default function Contact() {
                             <h2 className='subheaders2'>Need Help?</h2>
                             <div className='space3'></div>
                             <p className='paragraph2'>You can contact RetroGames by calling/texting 777-777-7777 if you have a technical issue, we are happy to help with your technical issue. If you have any games recommendations or any ideas that you want to see added to RetroGames in the future you can send a email at RetroGames@gmail.com, we are avaliable Monday-Friday from 6:00AM-2:25PM.</p>
-                            <h1 className='invisible-text2'>test</h1>
+                            <h1 className='invisible-text2'>a</h1>
                         </div>
                     </div>
                 </div>
